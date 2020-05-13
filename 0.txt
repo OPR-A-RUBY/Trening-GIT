@@ -1,0 +1,4 @@
+ create mode 100644 test/system/.keep
+ create mode 100644 test/test_helper.rb
+ create mode 100644 tmp/.keep
+ create mode 100644 tmp/pids/.keep
