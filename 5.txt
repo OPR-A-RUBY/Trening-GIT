@@ -1,1 +1,8 @@
 5-1
+
+first_user = User.first
+first_user.microposts
+first_user.microposts.count # обратится к БД
+first_user.microposts.length # прочитает то, что уже есть в памяти, без БД
+micropost = first_user.microposts.first # первый микропост первого пользователя
+micropost.user # получить пользователя микропоста
